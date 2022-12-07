@@ -4,10 +4,10 @@ const Content = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
-            Pricing
+            To-do
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
+            나만의 투두 리스트를 만들어보세요
           </p>
           <div className="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
             <button className="py-1 px-4 bg-indigo-500 text-white focus:outline-none">
@@ -17,10 +17,8 @@ const Content = () => {
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
-          <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-           
-          </div>
-          <div className="p-4 xl:w-1/2 md:w-1/2 w-full">
+          <div className="p-4 xl:w-1/4 md:w-1/2 w-full"></div>
+          <div className="p-4 xl:w-1/2 md:w-full w-full">
             <div className="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
               <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
                 POPULAR
@@ -112,11 +110,8 @@ const Content = () => {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </button>
-          
             </div>
           </div>
-        
-        
         </div>
       </div>
     </section>

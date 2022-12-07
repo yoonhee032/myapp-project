@@ -8,6 +8,7 @@ import TodoList from "./pages/TodoList";
 import NotFound from "./pages/NotFound";
 
 import { CallbacksType, StatesType } from "./AppContainer";
+import AddTodo from "./pages/AddTodo";
 
 type PropsType = {
   states: StatesType;
@@ -25,6 +26,7 @@ const App = ({ states, callbacks }: PropsType) => {
             path="todos"
             element={<TodoList states={states} callbacks={callbacks} />}
           />
+          <Route path="todos/add" element={<AddTodo callbacks={callbacks} />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
